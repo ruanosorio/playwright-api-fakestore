@@ -1,6 +1,6 @@
 // tests/api/products/products.spec.ts
 import { test, expect } from '@playwright/test';
-import { ApiClient } from '../../../utils/api-helpers/apiClient'; // Corrigido o nome da classe
+import { ApiClient } from '../../../utils/api-helpers/apiClient';
 import { product1, product2 } from '../../../utils/data/test-data';
 
 // Declara variáveis para guardar os IDs dos produtos entre os testes

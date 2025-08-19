@@ -1,6 +1,6 @@
 // tests/api/carts/carts.spec.ts
 import { test, expect } from '@playwright/test';
-import { ApiClient } from '../../../utils/api-helpers/apiClient'; // Corrigido o nome da classe
+import { ApiClient } from '../../../utils/api-helpers/apiClient';
 
 // IDs dos produtos criados no teste anterior
 const createdProductId1 = 1;
